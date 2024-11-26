@@ -2,7 +2,7 @@
 
 GPU programming is still too hard, and the current LLMs aren't helping much. But we've seen projects like llm.c where humans and AI actually work together to write decent systems code.
 
-We think we can build something better. It's going to take work.
+We think we can build something better, an LLM that can actually write good GPU code.
 
 We're doing this in public because, honestly, it's the only way this kind of project makes sense. All our training runs, our conversations about what works and what doesn't, our infrastructure - it's all going to be open. If you want to help figure this out, join us.
 
