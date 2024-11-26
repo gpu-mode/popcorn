@@ -11,15 +11,50 @@
             margin: 0 auto;
             line-height: 1.5;
         }
+        a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
     <div id="content"></div>
     <script>
+        function convertMarkdownLinks(text) {
+            // Match both [text](url) and bare URLs
+            const linkRegex = /\[([^\]]+)\]\(([^)]+)\)|(\b(?:https?:\/\/|www\.)[^\s<]+[\w/#])/g;
+            let lastIndex = 0;
+            let result = '';
+            
+            let match;
+            while ((match = linkRegex.exec(text)) !== null) {
+                // Add text before the match
+                result += text.slice(lastIndex, match.index);
+                
+                if (match[1] && match[2]) {
+                    // [text](url) format
+                    result += `<a href="${match[2]}" target="_blank">[${match[1]}](${match[2]})</a>`;
+                } else {
+                    // bare URL format
+                    const url = match[3];
+                    result += `<a href="${url}" target="_blank">${url}</a>`;
+                }
+                
+                lastIndex = linkRegex.lastIndex;
+            }
+            
+            // Add remaining text
+            result += text.slice(lastIndex);
+            return result;
+        }
+
         fetch('README.md')
             .then(response => response.text())
             .then(text => {
-                document.getElementById('content').textContent = text;
+                document.getElementById('content').innerHTML = convertMarkdownLinks(text);
             })
             .catch(err => {
                 document.getElementById('content').textContent = 'Error loading markdown: ' + err;
