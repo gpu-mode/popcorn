@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Raw Markdown</title>
+    <style>
+        body {
+            font-family: monospace;
+            white-space: pre-wrap;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <div id="content"></div>
+    <script>
+        fetch('README.md')
+            .then(response => response.text())
+            .then(text => {
+                document.getElementById('content').textContent = text;
+            })
+            .catch(err => {
+                document.getElementById('content').textContent = 'Error loading markdown: ' + err;
+            });
+    </script>
+</body>
+</html>
