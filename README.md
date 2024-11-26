@@ -29,7 +29,7 @@ Our collaborators include
 * https://scalingintelligence.stanford.edu/
 * https://hazyresearch.stanford.edu/
 * https://pytorch.org/
-* discord.gg/gpumode
+* https://discord.com/invite/gpumode
 * And anyone who shares our goals is welcome to join
 
 Our compute sponsors include
