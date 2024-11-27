@@ -23,6 +23,7 @@ We're exploring new abstractions to simplify GPU programming such as ThunderKitt
 
 
 ## Collaborators and Sponsors
+
 Our collaborators
 * https://scalingintelligence.stanford.edu/
 * https://hazyresearch.stanford.edu/
