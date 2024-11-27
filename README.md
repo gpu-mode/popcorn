@@ -21,15 +21,15 @@ We're investigating how to prompt, train, deploy, and sample LLMs for effective 
 ### Language Design
 We're exploring new abstractions to simplify GPU programming such as ThunderKittens.
 
-## Collaborators and Sponsors
 
-Our collaborators include
+## Collaborators and Sponsors
+Our collaborators
 * https://scalingintelligence.stanford.edu/
 * https://hazyresearch.stanford.edu/
 * https://pytorch.org/
 * https://discord.com/invite/gpumode
 
-Our compute sponsors include
+Our compute sponsors
 * https://nebius.com/
 * https://www.nvidia.com/
 * https://www.amd.com/
