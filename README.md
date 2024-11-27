@@ -10,16 +10,16 @@ We mostly talk on discord.gg/gpumode in the popcorn channel. It's pretty casual 
 ## What We're Working On
 
 ### Data
-We're collecting every CUDA and Triton kernel we can find. We need more examples of good GPU code than what's currently out there.
+We're collecting and synthetically generating as many GPU kernels as we can.
 
 ### Infrastructure
 We need compute - we're building tools to track progress and share results in real-time through Discord.
 
 ### Research
-We're exploring what LLMs need to know about GPUs to generate effective code, and how to best sample and train them.
+We're investigating how to prompt, train, deploy, and sample LLMs for effective GPU code generation.
 
 ### Language Design
-We're exploring new abstractions to simplify GPU programming and will promote successful approaches.
+We're exploring new abstractions to simplify GPU programming such as ThunderKittens.
 
 ## Collaborators and Sponsors
 
