@@ -1,9 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html data-theme="light">
 <head>
     <title>Project Popcorn</title>
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍿</text></svg>">
     <style>
+        :root[data-theme="light"] {
+            --bg-color: white;
+            --text-color: black;
+        }
+        
+        :root[data-theme="dark"] {
+            --bg-color: #1a1a1a;
+            --text-color: #ffffff;
+        }
+        
         body {
             font-family: monospace;
             white-space: pre-wrap;
@@ -11,19 +21,60 @@
             max-width: 800px;
             margin: 0 auto;
             line-height: 1.5;
+            background-color: var(--bg-color);
+            color: var(--text-color);
         }
+        
         a {
-            color: black;
+            color: var(--text-color);
             text-decoration: none;
         }
+        
         a:hover {
             text-decoration: underline;
+        }
+
+        #theme-toggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 8px 12px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: monospace;
+            background-color: var(--text-color);
+            color: var(--bg-color);
+        }
+
+        #theme-toggle:hover {
+            opacity: 0.9;
         }
     </style>
 </head>
 <body>
+    <button id="theme-toggle">🌓 Toggle Theme</button>
     <div id="content"></div>
     <script>
+        // Theme toggle functionality
+        const themeToggle = document.getElementById('theme-toggle');
+        const html = document.documentElement;
+        
+        function toggleTheme() {
+            const currentTheme = html.getAttribute('data-theme');
+            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+            html.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+        }
+        
+        // Load saved theme preference
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme) {
+            html.setAttribute('data-theme', savedTheme);
+        }
+        
+        themeToggle.addEventListener('click', toggleTheme);
+
         function convertMarkdownLinks(text) {
             // Match both [text](url) and bare URLs
             const linkRegex = /\[([^\]]+)\]\(([^)]+)\)|(\b(?:https?:\/\/|www\.)[^\s<]+[\w/#])/g;
