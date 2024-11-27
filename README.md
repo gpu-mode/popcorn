@@ -2,10 +2,10 @@
 
 GPU programming is still too hard, and the current LLMs aren't helping much. We think we can build something better, an LLM that can actually write good GPU code.
 
-We're doing this in public - all our training runs, conversations, and infrastructure will be open source.
+We're doing this in public - all our training runs, conversations, and infrastructure will be open.
 
 ## Where to Find Us
-We mostly talk on discord.gg/gpumode in the popcorn channel. It's pretty casual - drop in when you can.
+We mostly talk on discord.gg/gpumode in the popcorn channel.
 
 ## What We're Working On
 
