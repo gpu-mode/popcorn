@@ -8,7 +8,6 @@ We're doing this in public - all our training runs, conversations, and infrastru
 We mostly talk on discord.gg/gpumode in the popcorn channel.
 
 ## What We're Working On
-
 ### Data
 We're collecting and synthetically generating as many GPU kernels as we can.
 
@@ -27,7 +26,6 @@ We're exploring new abstractions to simplify GPU programming.
 * ThunderKittens: https://github.com/HazyResearch/ThunderKittens
 
 ## Collaborators and Sponsors
-
 Our collaborators
 * https://scalingintelligence.stanford.edu/
 * https://hazyresearch.stanford.edu/
