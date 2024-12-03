@@ -7,6 +7,7 @@ We're doing this in public - all our training runs, conversations, and infrastru
 ## Where to Find Us
 We mostly talk on discord.gg/gpumode in the popcorn channel.
 
+
 ## What We're Working On
 ### Data
 We're collecting and synthetically generating as many GPU kernels as we can.
@@ -20,10 +21,12 @@ We're investigating how to prompt, train, deploy, and sample LLMs for effective 
 ### Language Design
 We're exploring new abstractions to simplify GPU programming.
 
+
 ## Things we've built
 * KernelBench: https://github.com/ScalingIntelligence/KernelBench
 * Discord Cluster Manager: https://github.com/gpu-mode/discord-cluster-manager
 * ThunderKittens: https://github.com/HazyResearch/ThunderKittens
+
 
 ## Collaborators and Sponsors
 Our collaborators
