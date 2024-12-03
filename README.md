@@ -19,8 +19,12 @@ We need compute - we're building tools to track progress and share results in re
 We're investigating how to prompt, train, deploy, and sample LLMs for effective GPU code generation.
 
 ### Language Design
-We're exploring new abstractions to simplify GPU programming such as ThunderKittens.
+We're exploring new abstractions to simplify GPU programming.
 
+## Things we've built
+* KernelBench: https://github.com/ScalingIntelligence/KernelBench
+* Discord Cluster Manager: https://github.com/gpu-mode/discord-cluster-manager
+* ThunderKittens: https://github.com/HazyResearch/ThunderKittens
 
 ## Collaborators and Sponsors
 
