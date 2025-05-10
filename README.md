@@ -24,8 +24,11 @@ We're exploring new abstractions to simplify GPU programming.
 
 ## Things we've built
 * KernelBench: https://github.com/ScalingIntelligence/KernelBench
-* Discord Cluster Manager: https://github.com/gpu-mode/discord-cluster-manager
+* KernelBot: https://www.gpumode.com/
+* KernelBook: https://huggingface.co/GPUMODE
 * ThunderKittens: https://github.com/HazyResearch/ThunderKittens
+* KernelLLM: https://huggingface.co/facebook/KernelLLM
+
 
 
 ## Collaborators and Sponsors
