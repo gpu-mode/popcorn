@@ -25,6 +25,7 @@ We're exploring new abstractions to simplify GPU programming.
 ## Things we've built
 * KernelBench: https://github.com/ScalingIntelligence/KernelBench
 * KernelBot: https://www.gpumode.com/
+* KernelBot Dataset: https://huggingface.co/datasets/GPUMODE/kernelbot-data
 * KernelBook: https://huggingface.co/GPUMODE
 * ThunderKittens: https://github.com/HazyResearch/ThunderKittens
 * KernelLLM: https://huggingface.co/facebook/KernelLLM
