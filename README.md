@@ -29,6 +29,7 @@ We're exploring new abstractions to simplify GPU programming.
 * KernelBook: https://huggingface.co/GPUMODE
 * ThunderKittens: https://github.com/HazyResearch/ThunderKittens
 * KernelLLM: https://huggingface.co/facebook/KernelLLM
+* BackendBench: https://github.com/meta-pytorch/BackendBench
 
 
 
