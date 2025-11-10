@@ -25,6 +25,7 @@ We're exploring new abstractions to simplify GPU programming.
 ## Things we've built
 * KernelBench: https://github.com/ScalingIntelligence/KernelBench
 * KernelBot: https://www.gpumode.com/
+* Kernel competitions: https://www.gpumode.com/v2/news
 * KernelBot Dataset: https://huggingface.co/datasets/GPUMODE/kernelbot-data
 * KernelBook: https://huggingface.co/GPUMODE
 * ThunderKittens: https://github.com/HazyResearch/ThunderKittens
@@ -45,5 +46,8 @@ Our compute sponsors
 * https://www.nvidia.com/
 * https://www.amd.com/
 * https://modal.com/
+* http://sesterce.com/
+* https://hotaisle.xyz/
+* https://www.dell.com/en-us
 
 And anyone who shares our goals is welcome to join
