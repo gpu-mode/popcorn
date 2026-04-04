@@ -32,6 +32,8 @@ We're exploring new abstractions to simplify GPU programming.
 * KernelLLM: https://huggingface.co/facebook/KernelLLM
 * BackendBench: https://github.com/meta-pytorch/BackendBench
 * KernelAgent: https://github.com/meta-pytorch/KernelAgent
+* KernelGuard: https://github.com/SinatrasC/kernelguard
+* PyGPUBench: https://github.com/gpu-mode/pygpubench
 
 
 
